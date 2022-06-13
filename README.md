@@ -1,14 +1,6 @@
-## Heart Disease Classifier
+## Heart Disease Prediction
 
-## Project Overview
-
-The data science lifecycle is designed for big data issues and the data science projects. Generally, the data science project consists of seven steps which are problem definition, data collection, data preparation, data exploration, data modeling, model evaluation and model deployment.
-
-The goal of this project is to go through the data science lifecycle steps in order to build a heart disease classification web application by using [UCI heart disease](https://archive.ics.uci.edu/ml/datasets/statlog+(heart)) dataset. This project uses Flask API to deploy the model and build the web application.
-
-## Installation 
-
-All libraries are available in Anaconda distribution of Python.
+Heart Disease is among the most prevalent chronic diseases in the world. Detecting and preventing the factors that have the greatest impact on heart disease is very important in healthcare. Computational developments, in turn, allow the application of machine learning methods to detect "patterns" from the data that can predict a patient's condition.
 
 ## Dataset
 The dataset has 14 attributes:
@@ -31,19 +23,16 @@ The dataset has 14 attributes:
 
 ## File Descriptions 
 
-- `data.csv`: the dataset file.
-- `Heart_Disease_Classification.ipynb`: contains the code of data exploration, preparation and modeling. 
-- `model.pkl`: the classification model. 
-- `heart_disease_app.py`: Flask API that bind between the classification model and the web page. 
-- templates:
-	- `Heart Disease Classifier.html`: a web page that contains a form for heart disease testing. 
+- 'heart.csv': the dataset file.
+- 'Heart_Disease_Classification.ipynb': contains the code of data exploration, preparation and modeling. 
+- 'model.pkl': the classification model. 
+- 'model.py' : Flask API . 
+- templates ('Heart Disease Classifier.html'): a web page that contains a form for heart disease testing. 
 	
-
-## Data Scince Life Cycle Article
-This [article] (https://medium.com/analytics-vidhya/the-lifecycle-to-build-a-web-app-for-prediction-from-scratch-bec1632b5f27) explaines the steps to build the heart disease classifier web App. 
 
 	
 
+![Interface](https://user-images.githubusercontent.com/75954544/173339905-c0861a13-2f47-4639-ac99-76b77c3d5d2a.JPG)
 
 
 
